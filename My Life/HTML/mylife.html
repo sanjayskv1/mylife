@@ -1,0 +1,193 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Life</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+      
+
+
+    <nav class="navbar">
+
+        <h1 class="life">My Life</h1>
+        <div class="navbarlinks">
+            <ul>
+                <li class="navbarlink"> <a href="mylife.html">Home </a> </li>
+                <li class="navbarlink"> <a href="about.html">About As </a> </li>
+                <li class="navbarlink"> <a href="contact.html">Contact Us </a></li>
+            </ul>
+        </div>
+
+        <div class="toggle" onclick="showbar()">
+            <i class="fa-solid fa-bars"> </i>
+        </div>
+
+    </nav>
+
+<!--side navbar-->
+     <div class="side-navbar">
+         <div>
+            <button onclick="closebar()"class="close-button">x</button>
+         </div>
+
+
+        <div class="side-navbarlinks">
+            <ul>
+                <li class="side-navbarlink"> <a href="mylife.html">Home </a> </li>
+                <li class="side-navbarlink"> <a href="about.html">About As </a> </li>
+                <li class="side-navbarlink"> <a href="contact.html">Contact Us </a></li>
+            </ul>
+            
+        </div>
+        
+       
+          
+    </div>
+
+    <div class="image-my"><style>.image-my{margin-right: 140px;}</style>
+
+        <div class="image-head">
+            <h1 class="h1">My Images</h1>
+            <p class="para">You Can See My Pictures Click On It</p>
+            <button class="image-button" onclick="clickonit(event)"><a href="imagegallary.html">Click</a></button>
+        </div>
+
+        <div class="my-image">
+            <img class="im" src="../HTML/My Images/sk.jpg"><style>.im {border-style: dashed;z-index: 1;}</style>
+
+        </div>
+        
+
+    </div>
+
+
+    <div class="resume">
+         
+         <div class="resume-head">
+            <h2>See My Resume </h2>
+            <h4>Click On The Image </h4>
+            <a href="./My Images/sanjayCV.png" download>
+              <img class="imgs" src="./My Images/sanjayCV.png" alt="resume" width="150px" height="150px"><style>.imgs {border-style: outset; margin-left: 50px;}</style>
+            </a>
+            
+         </div>
+
+
+         <div class="resume-head">
+            <h2>See My Certifications</h2>
+            <h4>Click On The Image </h4>
+            <a href="./My Images/Certificate1.jpg" download>
+              <img class="imgs" src="./My Images/Certificate1.jpg" alt="Certificate" width="150px" height="150px"><style>.imgs {border-style: outset; margin-left: 50px;}</style>
+            </a>
+            
+         </div>
+
+         <div class="resume-head">
+            <h2>See My Certifications</h2>
+            <h4>Click On The Image </h4>
+            <a href="./My Images/Certificate2.jpg" download>
+              <img class="imgs" src="./My Images/Certificate2.jpg" alt="Certificate" width="150px" height="150px"><style>.imgs {border-style: outset; margin-left: 50px;}</style>
+            </a>
+            
+         </div>
+
+         <div class="resume-head">
+            <h2>See My Certifications</h2>
+            <h4>Click On The Image </h4>
+            <a href="./My Images/Certificate3.jpg" download>
+              <img class="imgs" src="./My Images/Certificate3.jpg" alt="Certificate" width="150px" height="150px"><style>.imgs {border-style: outset; margin-left: 50px;}</style>
+            </a>
+            
+         </div>
+
+
+    </div>
+
+    
+        <!--<hr><style>hr {padding: 2px; margin:10px; width: 100%; margin-top: 20px; border-color: rgb(38, 0, 255);}</style>--> 
+        
+    <h1 class="heading">MY IMAGE GALLERY</h1>
+    <div class="imagegallery">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <hr>
+
+
+    <div class="container">
+
+    <h1>Contact Us</h1>
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." alert="Write Something">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="India">India</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="australia">Australia</option>
+            <option value="Asia">Asia</option>
+            <option value="China">China</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Japan">Japna</option>
+            <option value="Singapore">Singapore</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+        
+
+    
+<footer  class="About">
+    <div class="about-head">
+        <h1>About</h1>
+        <h2>My Portfolio</h2>
+        <p>This Website You Can See My All Details And My Qualifications And My Skills ,<br> My First Own Project For Portfolio Web Page,<br> Thank You For Visiting Our Web Page</p>
+        <i id="gram" onclick="click(event)" class="fa-brands fa-instagram"><a href="https://www.instagram.com/vaalu_paiyan_sk__?igsh=MTcyZWQ1aHZ3MnU0dw=="></a>    </i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <p>@2024</p>
+        <p>&copy;Copyright</p>
+
+    
+    </div>
+
+</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
